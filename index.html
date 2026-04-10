@@ -82,28 +82,47 @@
           </a>
         </div>
       </div>
-      <div class="col-7 d-flex justify-content-center py-4">
-        <!-- Phone Mockup Container -->
-        <div class="phone-frame position-relative" style="width: 280px; border: 12px solid #222; border-radius: 40px; background-color: #fff; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25); overflow: hidden;">
-          <!-- Notch -->
-          <div class="notch position-absolute" style="top: 0; left: 50%; transform: translateX(-50%); width: 120px; height: 24px; background-color: #222; border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; z-index: 10;"></div>
-          
-          <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators" style="margin-bottom: 10px;">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner" style="border-radius: 28px;">
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./images/Image1.png" class="d-block w-100" style="aspect-ratio: 9/19.5; object-fit: cover;" alt="Image1">
+      <div class="col-7 d-flex justify-content-center align-items-center py-4">
+        <!-- iPhone 16 Pro Max Mockup -->
+        <div class="iphone-wrapper">
+          <!-- Side buttons: left -->
+          <div class="iphone-btn-mute"></div>
+          <div class="iphone-btn-vol-up"></div>
+          <div class="iphone-btn-vol-down"></div>
+          <!-- Side button: right (power) -->
+          <div class="iphone-btn-power"></div>
+
+          <!-- Phone body -->
+          <div class="iphone-body">
+            <!-- Screen -->
+            <div class="iphone-screen">
+              <!-- Dynamic Island -->
+              <div class="dynamic-island">
+                <div class="di-camera"></div>
               </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./images/Image2.png" class="d-block w-100" style="aspect-ratio: 9/19.5; object-fit: cover;" alt="Image2">
+
+              <!-- Carousel fills the screen -->
+              <div id="carouselExampleDark" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-indicators iphone-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner h-100">
+                  <div class="carousel-item h-100 active" data-bs-interval="3000">
+                    <img src="./images/Image1.png" class="d-block w-100 h-100" style="object-fit: cover;" alt="App Screen 1">
+                  </div>
+                  <div class="carousel-item h-100" data-bs-interval="3000">
+                    <img src="./images/Image2.png" class="d-block w-100 h-100" style="object-fit: cover;" alt="App Screen 2">
+                  </div>
+                  <div class="carousel-item h-100" data-bs-interval="3000">
+                    <img src="./images/Image3.png" class="d-block w-100 h-100" style="object-fit: cover;" alt="App Screen 3">
+                  </div>
+                </div>
               </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./images/Image3.png" class="d-block w-100" style="aspect-ratio: 9/19.5; object-fit: cover;" alt="Image3">
-              </div>
+
+              <!-- Home indicator bar -->
+              <div class="iphone-home-bar"></div>
             </div>
           </div>
         </div>
