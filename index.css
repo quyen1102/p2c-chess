@@ -1,0 +1,85 @@
+.appstore {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0px;
+
+}
+
+.text-black {
+    color: black;
+}
+
+.evalution-section {
+    background-color: #ecf3fc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.div-item-value {
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.p-item-des {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="col-"] {
+    margin-bottom: 30px;
+}
+
+.content {
+    height: 100%;
+    padding: 20px 20px 10px;
+}
+
+.video-content {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.footer-clean {
+    background-color: #132e4c;
+}
+
+.title-tech {
+    font-size: 16x;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: #005cc8;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 30%;
+    margin: auto;
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 30%;
+    margin: auto;
+}
